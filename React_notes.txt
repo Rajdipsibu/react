@@ -1,0 +1,29 @@
+Syllabus:------------------
+
+React Library:
+topics:
+1. core of react(state or ui manipulation,jsx)
+2. components of reusability(props or proparty)
+3. how to propagate changes(hooks)useState,useEffect
+
+**react based on SPA = single page Application
+
+#. Additional addon to react:
+	Router (react don't have router) react router dom
+	state management (react don't have managements)
+		->redax ,redux-toolkit, zustand, context api
+	class based components
+		->legacy code
+	BAAS Apps(backened as a service) like-firebase
+		->social media clone , e-commerce App---
+
+After react :
+	react is not a complete solution In most case
+		-no seo 
+	framework
+		next js , gotsby, remix
+
+#day_01::11/04/25------------------
+
+react.dav (documentation)
+
