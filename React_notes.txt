@@ -26,4 +26,54 @@ After react :
 #day_01::11/04/25------------------
 
 react.dav (documentation)
+npx : node packge executer
+step1: npx create-react-app@latest my-01app
+step2: cd app_name
+step3: npm run start
+##Recomended way: for build react app
+step1: npm create vite@latest my-app
+step2: cd my-01app
+step3: npm install
+step4: npm run dev
+
+#day_02::12/04/25------------------
+
+flow the react library. what the difference between normal reactapp and vite react app
+*difference of viteReact and normalReact
+1. vite react first implementation and first reload comparitively the normalReact App.
+2. vite react app is faster than normal react app.
+3. vite react app is smaller than normal react app.
+4. vite react app is more secure than normal react app.
+5. vite react app is more scalable than normal react app.
+6. vite react app is more maintainable than normal react app.
+7. vite react app is more efficient than normal react app.
+
+**Flow control of Vite React :
+my-app/
+├── node_modules/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/          # Images, icons, etc.
+│   ├── App.css          # Styling for App
+│   ├── App.jsx          # Main component
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles
+├── .gitignore
+├── index.html           # Main HTML template
+├── package.json         # Project metadata and dependencies
+├── vite.config.js       # Vite configuration
+└── README.md
+
+
+we learn:
+1. how to create a custom react like syntax in normal index.html and script.js
+	here we see that react inner object syntax and how to render function create etc.
+2. in viteReact app how to create another file like Apps.jsx 
+	or another function like app() 
+	how to pass the variable in js to html
+3. jsx mean javascript with html : means hear we create html like elements with javascript
+	this help to manupulate javascript with html elements
+
+***Now we lear react hooks in react. why it need
 
