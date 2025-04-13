@@ -76,4 +76,34 @@ we learn:
 	this help to manupulate javascript with html elements
 
 ***Now we lear react hooks in react. why it need
+react hooks is a new feature in react 16.8. it is a way to use state
+ let [value,setvalue] = useState()//setvalue is a callback function it changes the value in dom 
+ //and value is the variable which are in our dom
+
+now time to push all files in git:command--
+git status
+git add .
+git commit -m "day 02"
+git push origin main
+
+
+**** read here Virtual DOM, fibre and reconsilation concept:	https://github.com/acdlite/react-fiber-architecture
+
+#day_02::13/04/25------------------
+**tailwind css (How to add step by step)	https://tailwindcss.com/docs/installation/using-vite
+step1:  npm install tailwindcss @tailwindcss/vite
+step2: Add the @tailwindcss/vite plugin to your Vite configuration.
+	in vite.config.js add import tailwindcss from '@tailwindcss/vite'
+	in vite.config.js add plugins: [tailwindcss()] in plugins array
+step3: @import "tailwindcss"; (in your css file)
+
+**Props:(short for properties) are like arguments you pass to a React component — they help you pass data from one component to another.
+	They allow reusability and customization of components.
+
+*create a small project : color changer app
+**create a complex project : password generator.
+	useCallback( () => {} , [] ) //(function,[dependences])
+	useEffect( ()=>{},[] )//
+	useRef()
+
 
