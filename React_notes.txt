@@ -1,4 +1,4 @@
-Syllabus:------------------
+Syllabus:------------------chai aur code
 
 React Library:
 topics:
@@ -90,6 +90,7 @@ git push origin main
 **** read here Virtual DOM, fibre and reconsilation concept:	https://github.com/acdlite/react-fiber-architecture
 
 #day_02::13/04/25------------------
+
 **tailwind css (How to add step by step)	https://tailwindcss.com/docs/installation/using-vite
 step1:  npm install tailwindcss @tailwindcss/vite
 step2: Add the @tailwindcss/vite plugin to your Vite configuration.
@@ -105,5 +106,26 @@ step3: @import "tailwindcss"; (in your css file)
 	useCallback( () => {} , [] ) //(function,[dependences])
 	useEffect( ()=>{},[] )//
 	useRef()
+
+#day_03::14/04/25------------------
+	**create a currency converter app:
+		use learn from this app:
+		1. how to use api
+
+
+
+
+		
+	briefly understand what hook in react--
+	Why use useEffect for API calls in React?
+		-->✅ Main Reasons:
+			Runs After Render
+			React renders the component first, then useEffect runs. This is perfect for fetching data after the UI is ready.
+
+			Avoids Infinite Loops
+			If you call the API directly in the component body, it can cause infinite re-renders. useEffect helps you control when the API should be called.
+
+			Dependency Control
+			You can tell useEffect to run only once when the component mounts:
 
 
